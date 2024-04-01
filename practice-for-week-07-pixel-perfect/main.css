@@ -1,0 +1,99 @@
+.header {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    height: 10%;
+    background-color: lightblue;
+    align-items: center;
+}
+
+.home {
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 20px;
+
+}
+
+.search {
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.signin {
+    display: flex;
+    text-align: right;
+    padding: 20px;
+    gap: 25px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a {
+    color: white;
+}
+
+.signin a{
+    font-size: larger;
+}
+
+.signin button{
+    font-size: x-large;
+    background-color: white;
+    border-radius: 2px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.heading {
+    font-size: 400%;
+    position: relative;
+    top: 150px;
+}
+
+
+.text {
+    font-size: 200%;
+    position: relative;
+    top: 180px;
+}
+
+
+.mainbutton {
+    font-size: x-large;
+    background-color: white;
+    border-radius: 2px;
+    position: relative;
+    top: 250px;
+    padding: 15px 25px;
+}
+
+footer nav{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    top: 410px;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+nav a{
+    color: gray;
+}
+
+body {
+    background-color: lightgreen;
+}
